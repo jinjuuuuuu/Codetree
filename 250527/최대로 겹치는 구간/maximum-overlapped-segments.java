@@ -14,8 +14,6 @@ public class Main {
             x1[i] = sc.nextInt();
             x2[i] = sc.nextInt();
             min = Math.min(min, x1[i]);
-            min = Math.min(min, x2[i]);
-            max = Math.max(max, x1[i]);
             max = Math.max(max, x2[i]);
         }
 
